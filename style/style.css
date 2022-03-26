@@ -15,7 +15,7 @@ body {
 }
 header{
     background-color: #FFAA01;
-    height: 200px;
+    min-height: 200px;
 }
 header > h1{
     font-family: 'Dela Gothic One', cursive;
@@ -36,12 +36,13 @@ nav{
     background-color: #FFAA01;
     text-align: right;
     box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.233);
+
 }
 nav  a{
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
     font-weight: bold;
-    padding: 2px 6px;
+    padding: 3px 6px;
     text-decoration: none;
     color: #000000;
 }
@@ -51,8 +52,8 @@ nav a:hover{
     border-radius: 10px;
 }
 aside{
-    width: 650px;
-    height: 600px;
+    max-width: 650px;
+    max-height: 600px;
     margin: 10px 0px 0px  50px;
     background-color:white;
     border-radius: 15px 3px ;
@@ -62,13 +63,14 @@ font-family: 'Bebas Neue', cursive;
 text-align: center;
 }
 aside img{
+    max-height: 500px;
     margin: 5px 45px 0px 55px;
     border-radius: 5px;
 }
 
 section{
     background-color: white;
-    width: 350px;
-    height: 300;
+    max-width: 350px;
+    max-height: 300;
     
 }
