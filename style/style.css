@@ -68,6 +68,7 @@ text-align: center;
 }
 aside img{
     margin:  auto;
+    padding: auto;
     border-radius: 5px;
 }
 picture >source{
