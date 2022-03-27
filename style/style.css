@@ -70,3 +70,8 @@ aside img{
     margin:  auto;
     border-radius: 5px;
 }
+picture >source{
+    max-height: 350px;
+    margin: auto;
+    padding: auto;
+}
