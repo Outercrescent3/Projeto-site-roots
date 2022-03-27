@@ -16,6 +16,7 @@ body {
 header{
     background-color: #FFAA01;
     min-height: 200px;
+
 }
 header > h1{
     font-family: 'Dela Gothic One', cursive;
@@ -35,6 +36,8 @@ header > p{
 nav{
     background-color: #FFAA01;
     text-align: right;
+    padding-top: 10px;
+    margin-bottom: 20px;
     box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.233);
 
 }
@@ -52,9 +55,10 @@ nav a:hover{
     border-radius: 10px;
 }
 aside{
-    max-width: 650px;
-    max-height: 600px;
-    margin: 10px 0px 0px  50px;
+    max-width: 540px;
+    max-height: 550px;
+    padding: 10px 1px 5px 20px;
+    margin: auto;
     background-color:white;
     border-radius: 15px 3px ;
 }
@@ -63,14 +67,6 @@ font-family: 'Bebas Neue', cursive;
 text-align: center;
 }
 aside img{
-    max-height: 500px;
-    margin: 5px 45px 0px 55px;
+    margin:  auto;
     border-radius: 5px;
-}
-
-section{
-    background-color: white;
-    max-width: 350px;
-    max-height: 300;
-    
 }
