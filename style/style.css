@@ -16,6 +16,7 @@ body {
 header{
     background-color: #FFAA01;
     min-height: 200px;
+    min-width: 380px;
 
 }
 header > h1{
@@ -29,13 +30,14 @@ header > p{
     font-family: 'Bebas Neue', cursive;
     color:white;
     text-align: center;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 2em;
     padding-left: 70px;
 }
 nav{
     background-color: #FFAA01;
     text-align: right;
+    min-width: 370px;
     padding-top: 10px;
     margin-bottom: 20px;
     box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.233);
